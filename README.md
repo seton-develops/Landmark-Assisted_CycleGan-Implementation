@@ -1,2 +1,2 @@
-# Domain-Transfer-GAN-CelebA-Image-to-Emoji-
+# Landmark-Assisted-StarGAN
 Project to convert images from CelebA dataset to bitemoji avatars

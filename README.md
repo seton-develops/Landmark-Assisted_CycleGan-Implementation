@@ -65,6 +65,17 @@ The `~/data` folder should have the structure:
               ---validA_human_landmarks.xlsx
              |
               ---validB_cartoon_landmarks.xlsx
+              
+              
+              
+.
+├── data
+│    ├── train                    # Test files (alternatively `spec` or `tests`)
+│    │   ├── benchmarks          # Load and stress tests
+│        ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│        └── unit                # Unit tests
+└── ...            
+
 If you just replace the `~/data` folder, there should not be any problem with the folder structure.            
 
 NOTE: we did not use the val data for validation. The data in `~/valA(B)` folder is for testing.

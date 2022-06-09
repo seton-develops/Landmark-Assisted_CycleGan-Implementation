@@ -1,3 +1,6 @@
+# TODO
+delete data folder, let them replace the whole folder
+
 # Landmark-Assisted-StarGAN
 Project to convert images from CelebA dataset to bitemoji avatars.
 

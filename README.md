@@ -78,21 +78,21 @@ The `~/data` folder should have the structure:
 
 ```bash
 data
-    ├── train
-    │       ├── trainA
-    │       │        ├── *.jpg
-    │       ├── trainB
-    │       │        ├── *.jpg
-    │       ├── trainA_human_landmarks.xlsx
-    │       └─── trainB_cartoon_landmarks.xlsx
-    │
-    └─── val
-            ├── valA
-            │      ├── *.jpg
-            ├── valB
-            │      ├── *.jpg
-            ├── valA_human_landmarks.xlsx
-            └─── valB_cartoon_landmarks.xlsx
+   ├── train
+   │       ├── trainA
+   │       │        └─── *.jpg
+   │       ├── trainB
+   │       │        └─── *.jpg
+   │       ├── trainA_human_landmarks.xlsx
+   │       └─── trainB_cartoon_landmarks.xlsx
+   │
+   └─── val
+          ├── valA
+          │      └─── *.jpg
+          ├── valB
+          │      └─── *.jpg
+          ├── valA_human_landmarks.xlsx
+          └─── valB_cartoon_landmarks.xlsx
 
 ```
 

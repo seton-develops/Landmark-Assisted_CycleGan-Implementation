@@ -1,6 +1,3 @@
-# TODO
-delete data folder, let them replace the whole folder
-
 # Landmark-Assisted-StarGAN
 Project to convert images from CelebA dataset to bitemoji avatars.
 
@@ -46,25 +43,27 @@ Inside the `Landmark-Assisted-StarGAN` folder:
 
 ## Download dataset or our pre-trained models
 
+https://drive.google.com/drive/folders/1b2HdQjdiX-RCQDwpKEbx4qdLChmZARzO?usp=sharing
+
 ### dataset
+Download `data.zip` in the Google Drive link we provided above.
+Unzip it and replace the `~/Landmark-Assisted-StarGAN/data` folder. 
 
-We have already provided the xlsx file for the landmark coordinates inside the `~/Landmark-Assisted-StarGAN/data/train(val)` folder. 
-
-
-You should replace the ~/trainA, ~/trainB, ~/valA, ~/valB folder with the folder you downloaded from our link. 
 NOTE: we did not use the val data for validation. The data in `~/valA(B)` folder is for testing.
 
 ### pre-trained models
 If you want to use the pre-trained models.
-
+Download `pre-trained-models.zip` in the same Google Drive link.
 Please put evey pre-trained model inside the `~/Landmark-Assisted-StarGAN` folder. You should have total of 10 `.pth.tar` files.
+
+In fact, you only need the generator model `G_H.pth.tar` to test and visualize, but we provided all the models anyway so you can also continue training or use them to your demand. 
 
 
 
 ## Training the model
+IMPORTANT: GO TO `config.py` FIRST. Change `TRAIN_DIR` and `VAL_DIR` to absolute path, for example : `/home/zluan/ECE228_FINAL_PROJECT_GROUP24-main/Landmark-Assisted-StarGAN/data/train`. (relative path might lead to "[Errno 2] No such file or directory:")
 
-
-If you want to use a different training setting, feel free to change the hyper-parameters in config.py.
+If you want to use a different training setting, feel free to change the hyper-parameters in `config.py`.
 
 If you want to recreate our training process, run:
 
@@ -76,7 +75,10 @@ Then, run:
 
 The images generated during the training process is saved in saved_images folder. 
 
-After training with 60 epochs, you need to go to config.py and change the NUM_EPOCHS to 40.
+After training with 60 epochs, feel free to test and visualize this model at this stage. Please refer to `Test and visualize the model` section. 
+
+
+If you want to continue, you need to go to `config.py` and change the `NUM_EPOCHS` to 40 and change `LOAD_MODEL` to True.
 
 Then, run:
 
@@ -86,7 +88,7 @@ Then, run:
 
 
 Go to Testing_visualization.ipynb to test and visualize the result. 
-We provided 20 images generated from the pre-trained StarGAN model inside the stargan_input and stargan_out folder.
+We provided 20 images selected from CelebA dataset and 20 images generated from the pre-trained StarGAN model inside the stargan_input and stargan_out folder.
 
 If you set up everything correctly, you should be able to run the cell in sequence without any problem.
 

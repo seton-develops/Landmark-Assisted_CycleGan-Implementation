@@ -54,7 +54,7 @@ NOTE: we did not use the val data for validation. The data in `~/valA(B)` folder
 ### pre-trained models
 If you want to use the pre-trained models.
 
-Please put evey pre-trained model inside the `~/Landmark-Assisted-StarGAN` folder. You should have total of 12 `.pth.tar` file.
+Please put evey pre-trained model inside the `~/Landmark-Assisted-StarGAN` folder. You should have total of 10 `.pth.tar` files.
 
 
 

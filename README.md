@@ -76,6 +76,28 @@ The `~/data` folder should have the structure:
 │        └── unit                # Unit tests
 └── ...            
 
+```bash
+├── app
+│   ├── css
+│   │   ├── **/*.css
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── js
+│   │   ├── **/*.js
+│   └── partials/template
+├── dist (or build)
+├── node_modules
+├── bower_components (if using bower)
+├── test
+├── Gruntfile.js/gulpfile.js
+├── README.md
+├── package.json
+├── bower.json (if using bower)
+└── .gitignore
+```
+
+
 If you just replace the `~/data` folder, there should not be any problem with the folder structure.            
 
 NOTE: we did not use the val data for validation. The data in `~/valA(B)` folder is for testing.

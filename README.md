@@ -2,19 +2,23 @@
 Project to convert images from CelebA dataset to bitemoji avatars.
 
 
+## Overview
+
+
 ## Download dataset or our pre-trained models
 
 
-We have already provided the xlsx file for the landmark coordinates inside the ~/Landmark-Assisted-StarGAN/data/train(val) folder. 
-You should replace the trainA, trainB, valA, and valB folder with the folder you downloaded from our link. 
+We have already provided the xlsx file for the landmark coordinates inside the `~/Landmark-Assisted-StarGAN/data/train(val)` folder. 
+You should replace the ~/trainA, ~/trainB, ~/valA, ~/valB folder with the folder you downloaded from our link. 
 
-NOTE: PLEASE DELETE ANY FILE inside trainA, trainB, valA, valB, and saved_images folder. Since Github does not allow uploading empty folder, we put a txt file there. 
-NOTE: we did not use the val data for validation. The data in valA(B) folder is for testing.
+NOTE: PLEASE DELETE ANY FILE inside ~/trainA, ~/trainB, ~/valA, ~/valB, and ~/saved_images folder. Since Github does not allow uploading empty folder, we put a txt file there. 
+NOTE: we did not use the val data for validation. The data in ~/valA(B) folder is for testing.
 
 ## Training the model
 
 
-If you want to use a different training setting, feel free to change the hyper-parameters in config.py
+If you want to use a different training setting, feel free to change the hyper-parameters in config.py.
+
 If you want to recreate our training process, run:
 
 `cd ECE228_FINAL_PROJECT_GROUP24/Landmark-Assisted-StarGAN`
@@ -45,4 +49,6 @@ If you set up everything correctly, you should be able to run the cell in sequen
 
 
 
-## Overview of the project
+
+
+

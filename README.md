@@ -80,17 +80,17 @@ The `~/data` folder should have the structure:
 data
     ├── train
     │       ├── trainA
-    |       |        ├── *.jpg
-    |       ├── trainB
-    |       |        ├── *.jpg
-    |       ├── trainA_human_landmarks.xlsx
-    |       └─── trainB_cartoon_landmarks.xlsx
-    |
+    │       │        ├── *.jpg
+    │       ├── trainB
+    │       │        ├── *.jpg
+    │       ├── trainA_human_landmarks.xlsx
+    │       └─── trainB_cartoon_landmarks.xlsx
+    │
     └─── val
             ├── valA
-            |      ├── *.jpg
+            │      ├── *.jpg
             ├── valB
-            |      ├── *.jpg
+            │      ├── *.jpg
             ├── valA_human_landmarks.xlsx
             └─── valB_cartoon_landmarks.xlsx
 

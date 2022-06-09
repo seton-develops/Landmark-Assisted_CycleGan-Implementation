@@ -77,24 +77,23 @@ The `~/data` folder should have the structure:
 └── ...            
 
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
-├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+data
+    ├── train
+    │       ├── trainA
+    |       |        ├── *.jpg
+    |       ├── trainB
+    |       |        ├── *.jpg
+    |       ├── trainA_human_landmarks.xlsx
+    |       └─── trainB_cartoon_landmarks.xlsx
+    |
+    └─── val
+            ├── valA
+            |      ├── *.jpg
+            ├── valB
+            |      ├── *.jpg
+            ├── valA_human_landmarks.xlsx
+            └─── valB_cartoon_landmarks.xlsx
+
 ```
 
 

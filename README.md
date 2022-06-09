@@ -3,7 +3,7 @@ Project to convert images from CelebA dataset to bitemoji avatars.
 
 
 ## Overview
-NOTE: PLEASE DELETE ANY FILE INSIDE `~/trainA`, `~/trainB`, `~/valA`, `~/valB`, and `~/saved_images` folder. Since Github does not allow uploading empty folder, we put a txt file there. 
+NOTE: PLEASE DELETE ANY FILE INSIDE `~/trainA`, `~/trainB`, `~/valA`, `~/valB`, and `~/saved_images` folder. Since Github does not allow uploading empty folder, we put an empty txt file there. 
 
 Inside the `Landmark-Assisted-StarGAN` folder:
 
@@ -19,7 +19,7 @@ Inside the `Landmark-Assisted-StarGAN` folder:
 
 `cartoon_torch.pt` is the pre-trained regressor model for cartoon.
 
-`config.py` contains the hyper-parameters, number of epochs, options for load/save models, and etc. 
+`config.py` contains the hyper-parameters, number of epochs, options for load/save models, and etc. You can always change the values to your demand. 
 
 `dataset.py` is the dataloader we created specific for this task.
 
@@ -43,12 +43,20 @@ Inside the `Landmark-Assisted-StarGAN` folder:
 
 ## Download dataset or our pre-trained models
 
+### dataset
 
 We have already provided the xlsx file for the landmark coordinates inside the `~/Landmark-Assisted-StarGAN/data/train(val)` folder. 
+
+
 You should replace the ~/trainA, ~/trainB, ~/valA, ~/valB folder with the folder you downloaded from our link. 
+NOTE: we did not use the val data for validation. The data in `~/valA(B)` folder is for testing.
+
+### pre-trained models
+If you want to use the pre-trained models.
+
+Please put evey pre-trained model inside the `~/Landmark-Assisted-StarGAN` folder. You should have total of 12 `.pth.tar` file.
 
 
-NOTE: we did not use the val data for validation. The data in ~/valA(B) folder is for testing.
 
 ## Training the model
 

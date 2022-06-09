@@ -49,6 +49,24 @@ https://drive.google.com/drive/folders/1b2HdQjdiX-RCQDwpKEbx4qdLChmZARzO?usp=sha
 Download `data.zip` in the Google Drive link we provided above.
 Unzip it and replace the `~/Landmark-Assisted-StarGAN/data` folder. 
 
+The `~/data` folder should have the structure:
+  data---train---trainA--- i.jpg
+     |       |  
+     |        ---trainB---j.jpg
+     |       |
+     |        ---trainA_human_landmarks.xlsx
+     |       |
+     |        ---trainB_cartoon_landmarks.xlsx
+     | 
+      ---  val ---valA--- k.jpg
+             |
+              ---valB--- m.jpg
+             |
+              ---validA_human_landmarks.xlsx
+             |
+              ---validB_cartoon_landmarks.xlsx
+If you just replace the `~/data` folder, there should not be any problem with the folder structure.            
+
 NOTE: we did not use the val data for validation. The data in `~/valA(B)` folder is for testing.
 
 ### pre-trained models

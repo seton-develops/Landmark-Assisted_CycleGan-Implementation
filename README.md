@@ -49,32 +49,7 @@ https://drive.google.com/drive/folders/1b2HdQjdiX-RCQDwpKEbx4qdLChmZARzO?usp=sha
 Download `data.zip` in the Google Drive link we provided above.
 Unzip it and replace the `~/Landmark-Assisted-StarGAN/data` folder. 
 
-The `~/data` folder should have the structure:
-  data---train---trainA--- i.jpg
-     |       |  
-     |        ---trainB---j.jpg
-     |       |
-     |        ---trainA_human_landmarks.xlsx
-     |       |
-     |        ---trainB_cartoon_landmarks.xlsx
-     | 
-      ---  val ---valA--- k.jpg
-             |
-              ---valB--- m.jpg
-             |
-              ---validA_human_landmarks.xlsx
-             |
-              ---validB_cartoon_landmarks.xlsx
-              
-              
-              
-.
-├── data
-│    ├── train                    # Test files (alternatively `spec` or `tests`)
-│    │   ├── benchmarks          # Load and stress tests
-│        ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│        └── unit                # Unit tests
-└── ...            
+The `~/data` folder should have the following structure:   
 
 ```bash
 data
@@ -145,7 +120,10 @@ If you set up everything correctly, you should be able to run the cell in sequen
 
 
 
+## Test live demo
 
+We created a live demo for our model using local webcam. If you have the device you can try out this live demo yourself. 
+You can download the `model_demo` to your local device. 
 
 
 

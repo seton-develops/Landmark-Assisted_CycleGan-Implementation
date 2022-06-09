@@ -19,7 +19,7 @@ Inside the `Landmark-Assisted-StarGAN` folder:
 
 `cartoon_torch.pt` is the pre-trained regressor model for cartoon.
 
-`config.py` contains the hyper-parameters, number of epochs, options for load/save models, and etc. You can always change the values to your demand. 
+`config.py` contains the hyper-parameters, number of epochs, options for load/save models, and etc. You can always change the values with your demand. 
 
 `dataset.py` is the dataloader we created specific for this task.
 

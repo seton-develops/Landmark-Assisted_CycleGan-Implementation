@@ -42,6 +42,8 @@ Inside the `Landmark-Assisted-StarGAN` folder:
 
 `human_torch.pt` is the pre-trained regressor model for human.
 
+`image_preprocessing_FINAL.ipynb` is the notebook for image preprocessing. 
+
 `local_landmark_discriminator.py` is the local discriminator model.
 
 `model_D.py` is the discriminator model from https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/CycleGAN.

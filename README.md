@@ -42,7 +42,7 @@ Inside the `Landmark-Assisted-StarGAN` folder:
 
 `human_torch.pt` is the pre-trained regressor model for CelebA dataset.
 
-`image_preprocessing_FINAL.ipynb` is the notebook for image preprocessing. NOTE: IT IS NOT necessary to run this in order to train the model. 
+`image_preprocessing_FINAL.ipynb` is the notebook for image preprocessing. NOTE: IT IS NOT necessary to run this in order to train the model. The path was set to our local device. 
 
 `local_landmark_discriminator.py` is the local landmark discriminator model used to detect whether the eyes, nose, and mouth are real.
 
@@ -141,6 +141,7 @@ If you set up everything correctly, you should be able to run the cell in sequen
 ## Test live demo
 
 We created a live demo for our model using local webcam. If you have the device you can try out this live demo yourself (It has to be ran locally). 
+
 You can download the `model_demo.zip` to your local device. Make sure to change the path to your ABSOLUTE PATH to `demo_pictures`.
 
 

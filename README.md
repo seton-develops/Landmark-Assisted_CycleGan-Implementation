@@ -1,7 +1,10 @@
 # Landmark-Assisted-StarGAN
 Project to convert images from CelebA dataset to bitemoji avatars.
 
-The CycleGAN implementation is inspired by the official Pytorch implementation of CycleGAN: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix and aladdinpersson's simple CycleGAN implementation: https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/CycleGAN.
+The CycleGAN implementation is inspired by the official Pytorch implementation of CycleGAN: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix ,
+
+and aladdinpersson's simple CycleGAN implementation: https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/CycleGAN.
+
 We trained the StarGAN with our dataset using the pre-trained StarGAN model from the official Pytorch implementation of StarGAN: https://github.com/yunjey/stargan
 
 

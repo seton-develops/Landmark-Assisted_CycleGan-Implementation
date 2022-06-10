@@ -146,12 +146,15 @@ You can download the `model_demo.zip` to your local device. Make sure to change 
 
 https://drive.google.com/drive/folders/1b2HdQjdiX-RCQDwpKEbx4qdLChmZARzO?usp=sharing
 
-You can click this link and go to `videos of live demonstration` section and check out our tutorial and demonstration for the live demo. 
+If you want to try it yourself, you can click this link and go to `videos of live demonstration` section and check out our tutorial videos. 
+
+If you don not have the device (webcam), or do not want to try the live demo, feel free to watch our videos to see how we did it.  
 
 In the last cell of the `Demo.ipynb` :
 
 Make sure the values in these two lines are 320, and 180
 
 `cam.set(cv2.CAP_PROP_FRAME_WIDTH, 320)`
+
 `cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 180)`
 

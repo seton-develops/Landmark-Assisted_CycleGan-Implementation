@@ -7,7 +7,7 @@ To ensure that you can run our model without any error, you should create a cond
 
 Run:
 
-`conda env create -f environment.yml`.
+`conda env create -f environment.yml`
 
 This might take up to 5 minutes. 
 

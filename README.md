@@ -9,6 +9,12 @@ and aladdinpersson's simple CycleGAN implementation: https://github.com/aladdinp
 We trained the StarGAN with our processed dataset using the pre-trained StarGAN model from the official Pytorch implementation of StarGAN: https://github.com/yunjey/stargan
 
 Our dataset for human and cartoon were from CelebA: https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html, and Bitmoji Faces: https://www.kaggle.com/datasets/mostafamozafari/bitmoji-faces.
+
+Clone this repo:
+
+`git clone https://github.com/seton-develops/ECE228_FINAL_PROJECT_GROUP24.git`
+
+
 ## Set up your environment
 
 To ensure that you can run our model without any error, you should create a conda environment using the provided `.yml` file. 

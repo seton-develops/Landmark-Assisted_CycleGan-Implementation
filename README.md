@@ -142,7 +142,7 @@ We provided 20 images selected from CelebA dataset and 20 images generated from 
 
 If you set up everything correctly, you should be able to run the cell in sequence without any problem.
 
-
+NOTE: you could also refer to our tutorial video below if you run into problem with `ipynb.checkpoints`
 
 
 ## Live demo

@@ -4,6 +4,7 @@ Project to convert images from CelebA dataset to bitemoji avatars.
 ## Set up your environment
 
 To ensure that you can run our model without any error, you should create a conda environment using the provided `.yml` file. 
+
 Run:
 
 `conda env create -f environment.yml`.

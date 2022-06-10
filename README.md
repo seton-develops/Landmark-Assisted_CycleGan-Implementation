@@ -12,7 +12,7 @@ Run:
 This might take up to 5 minutes. 
 
 ## Overview
-NOTE: PLEASE DELETE ANY FILE INSIDE `~/trainA`, `~/trainB`, `~/valA`, `~/valB`, and `~/saved_images` folder. Since Github does not allow uploading empty folder, we put an empty txt file there. 
+IMPORTANT: PLEASE DELETE ANY FILE INSIDE `~/trainA`, `~/trainB`, `~/valA`, `~/valB`, and `~/saved_images` folder. Since Github does not allow uploading empty folder, we put an empty txt file there. 
 
 Inside the `Landmark-Assisted-StarGAN` folder:
 

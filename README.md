@@ -144,7 +144,14 @@ We created a live demo for our model using local webcam. If you have the device 
 
 You can download the `model_demo.zip` to your local device. Make sure to change the path to your ABSOLUTE PATH to `demo_pictures`.
 
+https://drive.google.com/drive/folders/1b2HdQjdiX-RCQDwpKEbx4qdLChmZARzO?usp=sharing
 
+You can click this link and go to `videos of live demonstration` section and check out our tutorial and demonstration for the live demo. 
 
+In the last cell of the `Demo.ipynb` :
 
+Make sure the values in these two lines are 320, and 180
+
+`cam.set(cv2.CAP_PROP_FRAME_WIDTH, 320)`
+`cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 180)`
 

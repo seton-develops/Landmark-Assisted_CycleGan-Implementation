@@ -19,6 +19,7 @@ Clone this repo:
 
 To ensure that you can run our model without any error, you should create a conda environment using the provided `.yml` file. 
 
+Make sure you install the environment to your Jupyter notebook as well.
 Run:
 
 `conda env create -f environment.yml`

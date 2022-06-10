@@ -148,7 +148,7 @@ https://drive.google.com/drive/folders/1b2HdQjdiX-RCQDwpKEbx4qdLChmZARzO?usp=sha
 
 If you want to try it yourself, you can click this link and go to `videos of live demonstration` section and check out our tutorial videos. 
 
-If you don not have the device (webcam), or do not want to try the live demo, feel free to watch our videos to see how we did it.  
+If you do not have the device (webcam), or do not want to try the live demo, feel free to watch our videos to see how we did it.  
 
 In the last cell of the `Demo.ipynb` :
 

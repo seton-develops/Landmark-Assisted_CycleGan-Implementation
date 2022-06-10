@@ -1,6 +1,14 @@
 # Landmark-Assisted-StarGAN
 Project to convert images from CelebA dataset to bitemoji avatars.
 
+## Set up your environment
+
+To ensure that you can run our model without any error, you should create a conda environment using the provided `.yml` file. 
+Run:
+
+`conda env create -f environment.yml`.
+
+This might take up to 5 minutes. 
 
 ## Overview
 NOTE: PLEASE DELETE ANY FILE INSIDE `~/trainA`, `~/trainB`, `~/valA`, `~/valB`, and `~/saved_images` folder. Since Github does not allow uploading empty folder, we put an empty txt file there. 

@@ -138,7 +138,7 @@ If you set up everything correctly, you should be able to run the cell in sequen
 
 
 
-## Test live demo
+## Live demo
 
 We created a live demo for our model using local webcam. If you have the device you can try out this live demo yourself (It has to be ran locally). 
 

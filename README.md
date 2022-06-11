@@ -106,7 +106,7 @@ NOTE: we did not use the val data for validation because it is a GAN model. The 
 If you want to use the pre-trained models, download `pre-trained-models.zip` in the same Google Drive link.
 Please put evey pre-trained model inside the `~/Landmark-Assisted-StarGAN` folder. You should have total of 10 `.pth.tar` files.
 
-In fact, you only need the generator model `G_H.pth.tar` to test and visualize, but we provided all the models anyway so you can also continue training or use them to your demand. 
+In fact, you only need the generator model `G_C.pth.tar` to test and visualize, but we provided all the models anyway so you can also continue training or use them to your demand. 
 
 
 
